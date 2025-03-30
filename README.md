@@ -9,4 +9,4 @@ Alunas:
 
 - Marina Cantarelli Barroca, RA: 10740412
 
-Link do nosso vídeo no youtube: 
+Link do nosso vídeo no youtube: https://youtu.be/-StDEGDOZeg?si=OcclxKNWp9BId-gD
