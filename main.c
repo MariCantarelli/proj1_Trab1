@@ -1,3 +1,8 @@
+/*Beatriz Di Palma Carvalho, RA: 10439477
+Luiza Marinho de Mesquita, RA: 10438045
+Marina Cantarelli Barroca, RA: 10740412
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -190,7 +195,8 @@ void menu(estudantes alunos[], int num_alunos){
 
 int main() {
     estudantes alunos[MAX];                                 // Declara um array para armazenar os alunos
-    int num_alunos = carregar_csv("entrada.csv", alunos);   // Carrega o CSV e finaliza o programa
+    int num_alunos = carregar_csv("entrada.txt", alunos);   // Carrega o CSV e finaliza o programa
+     //int num_alunos = carregar_csv("entrada.csv", alunos); // Caso queira carregar o arquivo em csv é só descomentar o código e comentar o acima
     menu(alunos, num_alunos);
     return 0;
 }
